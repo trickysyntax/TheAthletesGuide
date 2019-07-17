@@ -1,0 +1,6 @@
+framework module Pods_TheAthletesGuideTests {
+  umbrella header "Pods-TheAthletesGuideTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

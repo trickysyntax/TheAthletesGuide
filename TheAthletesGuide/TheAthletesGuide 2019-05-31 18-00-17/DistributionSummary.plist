@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TheAthletesGuide.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>9366C70B9794585879770767B597F30119B27EDD</string>
+				<key>dateExpires</key>
+				<string>4/29/20</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>77ZVZS8B6Q.ciderhouse.org</string>
+				<key>aps-environment</key>
+				<string>development</string>
+				<key>com.apple.developer.authentication-services.autofill-credential-provider</key>
+				<true/>
+				<key>com.apple.developer.default-data-protection</key>
+				<string>NSFileProtectionComplete</string>
+				<key>com.apple.developer.in-app-payments</key>
+				<array/>
+				<key>com.apple.developer.pass-type-identifiers</key>
+				<array>
+					<string>77ZVZS8B6Q.*</string>
+				</array>
+				<key>com.apple.developer.team-identifier</key>
+				<string>77ZVZS8B6Q</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>TheAthletesGuide.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>8d1109bc-b5ac-4dfb-b714-3498efecae73</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: ciderhouse.org</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>77ZVZS8B6Q</string>
+				<key>name</key>
+				<string>The Athlete's Guide, LLC</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
