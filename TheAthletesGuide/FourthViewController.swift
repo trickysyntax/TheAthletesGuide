@@ -27,9 +27,9 @@ class FourthViewController: UIViewController {
     
     @IBAction func switchViews(_ sender: UISegmentedControl) {
         if sender.selectedSegmentIndex == 0 {
-            boardsView.alpha = 0
+            boardsView.alpha = 1
             questionsView.alpha = 0
-            featuredView.alpha = 1
+            featuredView.alpha = 0
         } else if sender.selectedSegmentIndex == 1 {
             boardsView.alpha = 1
             questionsView.alpha = 0

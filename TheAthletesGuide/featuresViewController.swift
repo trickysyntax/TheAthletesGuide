@@ -12,14 +12,14 @@ import MapKit
 
 class FeaturesViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     var features: [Item] = []
-    @IBOutlet weak var featuresView: UITableView!
+    @IBOutlet weak var tableView: UITableView!
 }
 
 extension FeaturesViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.featuresView.delegate = self
-        self.featuresView.dataSource = self
+//        tableView.delegate = self
+//        tableView.dataSource = self
         guard let url = URL(string: "https://ourbaseballlife.com/blog?format=json-pretty") else { return }
         let request = NetworkRequest(url: url)
         request.execute { [weak self] (data) in
@@ -30,7 +30,7 @@ extension FeaturesViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let indexPath = self.featuresView.indexPathForSelectedRow,
+        if let indexPath = tableView.indexPathForSelectedRow,
             let featureViewController = segue.destination as? FeatureViewController {
             featureViewController.feature = features[indexPath.row]
         }
@@ -43,7 +43,7 @@ extension FeaturesViewController {
     }
     
      func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = self.featuresView.dequeueReusableCell(withIdentifier: "ItemCell", for: indexPath) as! ItemCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ItemCell", for: indexPath) as! ItemCell
         let item = features[indexPath.row]
         cell.title.text = item.title
         cell.body.text = item.body
@@ -79,7 +79,7 @@ private extension FeaturesViewController {
 //        decoder.dateDecodingStrategy = .formatted(DateFormatter.fullISO8601)
         do {
             features = try decoder.decode([Item].self, from: data)
-            self.featuresView.reloadData()
+            tableView .reloadData()
         } catch {
             let title = "Oops, something went wrong"
             let message = "Please make sure you have the latest version of the app."

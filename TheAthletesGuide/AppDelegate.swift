@@ -7,9 +7,11 @@
 //
 
 import UIKit
-import FirebaseCore
+import Firebase
 import FirebaseAuth
+import FirebaseFirestore
 
+let db = Firestore.firestore()
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
