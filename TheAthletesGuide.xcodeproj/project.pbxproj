@@ -15,15 +15,11 @@
 		8B087179228DDA7E00D13059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B087177228DDA7E00D13059 /* LaunchScreen.storyboard */; };
 		8B08719D228E248100D13059 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B08719C228E248100D13059 /* ThirdViewController.swift */; };
 		8B08719F228E249200D13059 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B08719E228E249200D13059 /* FourthViewController.swift */; };
-		8B11529522E08A4400A01214 /* xCityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B11529022E08A4400A01214 /* xCityModel.swift */; };
-		8B2CDE2122DD4346006682B4 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CDE2022DD4346006682B4 /* Feature.swift */; };
-		8B2CDE2322DD468C006682B4 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CDE2222DD468C006682B4 /* NetworkRequest.swift */; };
-		8B2CDE2522DD56E1006682B4 /* featureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CDE2422DD56E1006682B4 /* featureViewController.swift */; };
 		8B2CDE2722DE6627006682B4 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CDE2622DE6627006682B4 /* StartViewController.swift */; };
 		8B2CDE2922DE6645006682B4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CDE2822DE6645006682B4 /* RegisterViewController.swift */; };
+		8B3079EB22E4340F008122D0 /* QANewQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3079EA22E4340F008122D0 /* QANewQViewController.swift */; };
 		8B3AE49122DE6EB900FEC49D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B3AE49022DE6EB900FEC49D /* GoogleService-Info.plist */; };
-		8B55DEE422D7D7D70010A004 /* featuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B55DEE322D7D7D70010A004 /* featuresViewController.swift */; };
-		8B55DEE622D7E9FA0010A004 /* featureDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B55DEE522D7E9FA0010A004 /* featureDetailController.swift */; };
+		8B4979F822E24C21001CCFBC /* QAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4979F722E24C21001CCFBC /* QAViewController.swift */; };
 		8B6E333F22C85BCC009A626F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6E333E22C85BCC009A626F /* LoginViewController.swift */; };
 		8B7F2E3822CB0FAF003E5DDC /* CityMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7F2E3722CB0FAF003E5DDC /* CityMapViewController.swift */; };
 		8B7F2E3C22CB10CA003E5DDC /* CityListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7F2E3B22CB10CA003E5DDC /* CityListViewController.swift */; };
@@ -37,13 +33,8 @@
 		8B94B5B12297481B00330E79 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B94B5B02297481B00330E79 /* AuthenticationServices.framework */; };
 		8B94B5B32297482D00330E79 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B94B5B22297482D00330E79 /* PassKit.framework */; };
 		8BA9D14922A0753D007D6827 /* LeagueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA9D14822A0753D007D6827 /* LeagueModel.swift */; };
-		8BB83F5E22E05F1100FAED01 /* QuestionListViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB83F5D22E05F1100FAED01 /* QuestionListViewData.swift */; };
-		8BB83F6022E065AB00FAED01 /* QuestionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB83F5F22E065AB00FAED01 /* QuestionListViewModel.swift */; };
-		8BC87BDF22D54DDE00514CA6 /* featureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC87BDE22D54DDE00514CA6 /* featureModel.swift */; };
-		8BC87BE122D6EACF00514CA6 /* featureSetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC87BE022D6EACF00514CA6 /* featureSetModel.swift */; };
-		8BDDDEAF22DFB31600A63611 /* boardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDDDEAE22DFB31600A63611 /* boardsViewController.swift */; };
+		8BAE65F222E3B9BB00EC564F /* QADetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE65F122E3B9BB00EC564F /* QADetailViewController.swift */; };
 		8BF19D6A22978E1D006338E7 /* CosmosDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF19D6922978E1D006338E7 /* CosmosDistrib.swift */; };
-		8BFA6B3722E002C600F5C62A /* QuestionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFA6B3622E002C600F5C62A /* QuestionListViewController.swift */; };
 		B6182A5285B13AA7B14E9AB5 /* Pods_TheAthletesGuide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7DC7136A8F64B91F5956BA /* Pods_TheAthletesGuide.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,18 +50,14 @@
 		8B08717A228DDA7E00D13059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B08719C228E248100D13059 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		8B08719E228E249200D13059 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
-		8B11529022E08A4400A01214 /* xCityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xCityModel.swift; sourceTree = "<group>"; };
 		8B11529922E08B8200A01214 /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B11529B22E08B8200A01214 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B11529D22E08B8200A01214 /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B2CDE2022DD4346006682B4 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
-		8B2CDE2222DD468C006682B4 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
-		8B2CDE2422DD56E1006682B4 /* featureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = featureViewController.swift; sourceTree = "<group>"; };
 		8B2CDE2622DE6627006682B4 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		8B2CDE2822DE6645006682B4 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		8B3079EA22E4340F008122D0 /* QANewQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QANewQViewController.swift; sourceTree = "<group>"; };
 		8B3AE49022DE6EB900FEC49D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		8B55DEE322D7D7D70010A004 /* featuresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = featuresViewController.swift; sourceTree = "<group>"; };
-		8B55DEE522D7E9FA0010A004 /* featureDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = featureDetailController.swift; sourceTree = "<group>"; };
+		8B4979F722E24C21001CCFBC /* QAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QAViewController.swift; sourceTree = "<group>"; };
 		8B6E333E22C85BCC009A626F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8B7F2E3722CB0FAF003E5DDC /* CityMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityMapViewController.swift; sourceTree = "<group>"; };
 		8B7F2E3B22CB10CA003E5DDC /* CityListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityListViewController.swift; sourceTree = "<group>"; };
@@ -85,13 +72,8 @@
 		8B94B5B02297481B00330E79 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
 		8B94B5B22297482D00330E79 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
 		8BA9D14822A0753D007D6827 /* LeagueModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueModel.swift; sourceTree = "<group>"; };
-		8BB83F5D22E05F1100FAED01 /* QuestionListViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionListViewData.swift; sourceTree = "<group>"; };
-		8BB83F5F22E065AB00FAED01 /* QuestionListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionListViewModel.swift; sourceTree = "<group>"; };
-		8BC87BDE22D54DDE00514CA6 /* featureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = featureModel.swift; sourceTree = "<group>"; };
-		8BC87BE022D6EACF00514CA6 /* featureSetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = featureSetModel.swift; sourceTree = "<group>"; };
-		8BDDDEAE22DFB31600A63611 /* boardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boardsViewController.swift; sourceTree = "<group>"; };
+		8BAE65F122E3B9BB00EC564F /* QADetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QADetailViewController.swift; sourceTree = "<group>"; };
 		8BF19D6922978E1D006338E7 /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosDistrib.swift; sourceTree = "<group>"; };
-		8BFA6B3622E002C600F5C62A /* QuestionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionListViewController.swift; sourceTree = "<group>"; };
 		E3632731CA4B5639F71B3CC6 /* Pods-TheAthletesGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheAthletesGuide.debug.xcconfig"; path = "Target Support Files/Pods-TheAthletesGuide/Pods-TheAthletesGuide.debug.xcconfig"; sourceTree = "<group>"; };
 		FE7DC7136A8F64B91F5956BA /* Pods_TheAthletesGuide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheAthletesGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -142,38 +124,31 @@
 			isa = PBXGroup;
 			children = (
 				8B83F62222947EF2008C2623 /* HomeModel.swift */,
-				8BC87BE022D6EACF00514CA6 /* featureSetModel.swift */,
 				8B83F62422947F0A008C2623 /* LocationModel.swift */,
-				8BC87BDE22D54DDE00514CA6 /* featureModel.swift */,
 				8BA9D14822A0753D007D6827 /* LeagueModel.swift */,
 				8B81F15F22A05FB2005F4229 /* CityModel.swift */,
 				8BF19D6922978E1D006338E7 /* CosmosDistrib.swift */,
 				8B94B5AF2297481400330E79 /* TheAthletesGuide.entitlements */,
 				8B08716C228DDA6800D13059 /* AppDelegate.swift */,
-				8BB83F5C22E05EDC00FAED01 /* QuestionList */,
 				8B087170228DDA6800D13059 /* SecondViewController.swift */,
 				8B087172228DDA6800D13059 /* Main.storyboard */,
-				8BDDDEAE22DFB31600A63611 /* boardsViewController.swift */,
 				8B2CDE2622DE6627006682B4 /* StartViewController.swift */,
 				8B2CDE2822DE6645006682B4 /* RegisterViewController.swift */,
-				8B55DEE322D7D7D70010A004 /* featuresViewController.swift */,
-				8B2CDE2422DD56E1006682B4 /* featureViewController.swift */,
-				8B55DEE522D7E9FA0010A004 /* featureDetailController.swift */,
 				8B7F2E3722CB0FAF003E5DDC /* CityMapViewController.swift */,
 				8B7F2E3B22CB10CA003E5DDC /* CityListViewController.swift */,
+				8B81F16722A06B6F005F4229 /* CityViewController.swift */,
 				8B6E333E22C85BCC009A626F /* LoginViewController.swift */,
 				8B087175228DDA7E00D13059 /* Assets.xcassets */,
 				8B087177228DDA7E00D13059 /* LaunchScreen.storyboard */,
 				8B08717A228DDA7E00D13059 /* Info.plist */,
-				8B11529022E08A4400A01214 /* xCityModel.swift */,
 				8B08716E228DDA6800D13059 /* FirstViewController.swift */,
 				8B08719C228E248100D13059 /* ThirdViewController.swift */,
 				8B08719E228E249200D13059 /* FourthViewController.swift */,
 				8B94B5A8229642C500330E79 /* DetailViewController.swift */,
 				8B94B5AD2296712100330E79 /* ZeroViewController.swift */,
-				8B81F16722A06B6F005F4229 /* CityViewController.swift */,
-				8B2CDE2022DD4346006682B4 /* Feature.swift */,
-				8B2CDE2222DD468C006682B4 /* NetworkRequest.swift */,
+				8B4979F722E24C21001CCFBC /* QAViewController.swift */,
+				8BAE65F122E3B9BB00EC564F /* QADetailViewController.swift */,
+				8B3079EA22E4340F008122D0 /* QANewQViewController.swift */,
 				8B3AE49022DE6EB900FEC49D /* GoogleService-Info.plist */,
 			);
 			path = TheAthletesGuide;
@@ -191,16 +166,6 @@
 				FE7DC7136A8F64B91F5956BA /* Pods_TheAthletesGuide.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8BB83F5C22E05EDC00FAED01 /* QuestionList */ = {
-			isa = PBXGroup;
-			children = (
-				8BB83F5D22E05F1100FAED01 /* QuestionListViewData.swift */,
-				8BB83F5F22E065AB00FAED01 /* QuestionListViewModel.swift */,
-				8BFA6B3622E002C600F5C62A /* QuestionListViewController.swift */,
-			);
-			path = QuestionList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,22 +305,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B6E333F22C85BCC009A626F /* LoginViewController.swift in Sources */,
-				8BC87BE122D6EACF00514CA6 /* featureSetModel.swift in Sources */,
 				8B81F16022A05FB2005F4229 /* CityModel.swift in Sources */,
-				8BDDDEAF22DFB31600A63611 /* boardsViewController.swift in Sources */,
 				8B81F16822A06B6F005F4229 /* CityViewController.swift in Sources */,
 				8B7F2E3822CB0FAF003E5DDC /* CityMapViewController.swift in Sources */,
-				8BB83F5E22E05F1100FAED01 /* QuestionListViewData.swift in Sources */,
 				8B087171228DDA6800D13059 /* SecondViewController.swift in Sources */,
+				8B3079EB22E4340F008122D0 /* QANewQViewController.swift in Sources */,
 				8B08716D228DDA6800D13059 /* AppDelegate.swift in Sources */,
-				8BFA6B3722E002C600F5C62A /* QuestionListViewController.swift in Sources */,
-				8B55DEE622D7E9FA0010A004 /* featureDetailController.swift in Sources */,
-				8B2CDE2322DD468C006682B4 /* NetworkRequest.swift in Sources */,
-				8BB83F6022E065AB00FAED01 /* QuestionListViewModel.swift in Sources */,
-				8B11529522E08A4400A01214 /* xCityModel.swift in Sources */,
-				8B55DEE422D7D7D70010A004 /* featuresViewController.swift in Sources */,
-				8B2CDE2122DD4346006682B4 /* Feature.swift in Sources */,
-				8B2CDE2522DD56E1006682B4 /* featureViewController.swift in Sources */,
+				8B4979F822E24C21001CCFBC /* QAViewController.swift in Sources */,
 				8BA9D14922A0753D007D6827 /* LeagueModel.swift in Sources */,
 				8B83F62322947EF2008C2623 /* HomeModel.swift in Sources */,
 				8BF19D6A22978E1D006338E7 /* CosmosDistrib.swift in Sources */,
@@ -363,8 +319,8 @@
 				8B2CDE2922DE6645006682B4 /* RegisterViewController.swift in Sources */,
 				8B94B5A9229642C500330E79 /* DetailViewController.swift in Sources */,
 				8B2CDE2722DE6627006682B4 /* StartViewController.swift in Sources */,
-				8BC87BDF22D54DDE00514CA6 /* featureModel.swift in Sources */,
 				8B7F2E3C22CB10CA003E5DDC /* CityListViewController.swift in Sources */,
+				8BAE65F222E3B9BB00EC564F /* QADetailViewController.swift in Sources */,
 				8B08716F228DDA6800D13059 /* FirstViewController.swift in Sources */,
 				8B83F62522947F0A008C2623 /* LocationModel.swift in Sources */,
 				8B94B5AE2296712100330E79 /* ZeroViewController.swift in Sources */,

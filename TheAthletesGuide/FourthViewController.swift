@@ -1,43 +1,26 @@
 //
 //  FourthViewController.swift
-//  The Athlete's Guide
+//  TheAthletesGuide
 //
-//  Created by Developer on 5/16/19.
+//  Created by Developer on 7/17/19.
 //  Copyright © 2019 Ciderhouse. All rights reserved.
 //
-import UIKit
-import MapKit
 
-class FourthViewController: UIViewController {
+import UIKit
+import WebKit
+class FourthViewController: UIViewController, WKUIDelegate {
     
-    //Properties
-    @IBOutlet weak var featuredView: UIView!
-    @IBOutlet weak var boardsView: UIView!
-    @IBOutlet weak var questionsView: UIView!
+    var webView: WKWebView!
+    override func loadView() {
+        let webConfiguration = WKWebViewConfiguration()
+        webView = WKWebView(frame: .zero, configuration: webConfiguration)
+        webView.uiDelegate = self
+        view = webView
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-    }
-    
-    
-    override func viewDidAppear(_ animated: Bool) {
-        let nav = self.navigationController?.navigationBar
-        nav?.barStyle = UIBarStyle.black
-        nav?.tintColor = UIColor.white
-    }
-    
-    @IBAction func switchViews(_ sender: UISegmentedControl) {
-        if sender.selectedSegmentIndex == 0 {
-            boardsView.alpha = 1
-            questionsView.alpha = 0
-            featuredView.alpha = 0
-        } else if sender.selectedSegmentIndex == 1 {
-            boardsView.alpha = 1
-            questionsView.alpha = 0
-            featuredView.alpha = 0
-        } else {
-            boardsView.alpha = 0
-            questionsView.alpha = 1
-            featuredView.alpha = 0
-        }
-    }
-}
+        
+        let myURL = URL(string:"https://ourbaseballlife.com/blog/")
+        let myRequest = URLRequest(url: myURL!)
+        webView.load(myRequest)
+    }}

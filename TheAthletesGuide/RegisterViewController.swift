@@ -11,15 +11,9 @@ import FirebaseAuth
 
 class RegisterViewController: UIViewController {
     
-    @IBOutlet weak var firstName: UITextField!
-    @IBOutlet weak var lastName: UITextField!
     @IBOutlet weak var email: UITextField!
     @IBOutlet weak var password: UITextField!
     @IBOutlet weak var passwordConfirm: UITextField!
-    @IBOutlet weak var athleteFirstName: UITextField!
-    @IBOutlet weak var athleteLastName: UITextField!
-    @IBOutlet weak var league: UITextField!
-    @IBOutlet weak var team: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +22,7 @@ class RegisterViewController: UIViewController {
     
     @IBAction func signUpAction(_ sender: Any) {
         if password.text != passwordConfirm.text {
-            let alertController = UIAlertController(title: "Password Incorrect", message: "Please re-type password", preferredStyle: .alert)
+            let alertController = UIAlertController(title: "Passwords don't match.", message: "Please make sure that the password confirmation matches the password.", preferredStyle: .alert)
             let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
             
             alertController.addAction(defaultAction)
